@@ -1,0 +1,27 @@
+@import url("./vendor/bootstrap.css");
+@import url("./vendor/main-original.css");
+
+:root {
+  --accent-color: #ffc451;
+  --black: #080808;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 118px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  transition: 0.25s ease;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
