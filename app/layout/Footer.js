@@ -47,8 +47,8 @@ export default function Footer() {
               Ferndale, Randburg
             </p>
             <a href="tel:+27836882899">083 688 2899</a>
-            <a href="mailto:info@blackrabbit.co.za">
-              info@blackrabbit.co.za
+            <a href="mailto:info@blackrabbitaerials.co.za">
+              info@blackrabbitaerials.co.za
             </a>
           </div>
         </div>
