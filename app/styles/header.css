@@ -85,6 +85,62 @@
     stroke: currentColor;
   }
   
+
+
+  /* Header contact actions */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .header-icon-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .header-icon-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .whatsapp-btn {
+    color: #fff;
+    background: #25D366;
+    border-color: #25D366;
+  }
+
+  .whatsapp-btn:hover {
+    background: #20bd5a;
+    color: #fff;
+  }
+
+  .whatsapp-icon {
+    width: 21px;
+    height: 21px;
+  }
+
+  .call-btn {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .call-btn:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+  }
+
+  .header-actions .btn-getstarted {
+    white-space: nowrap;
+  }
+
   /* =========================================================
      TABLET / MOBILE
      ========================================================= */

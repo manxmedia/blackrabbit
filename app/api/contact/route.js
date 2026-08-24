@@ -34,7 +34,7 @@ export async function POST(request) {
           <p>We have received your enquiry and a member of the Black Rabbit Aerials team will get back to you as soon as possible.</p>
           <p><strong>Service:</strong> ${escapeHtml(service || "General enquiry")}</p>
           <p><strong>Your message:</strong></p><p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
-          <p>Black Rabbit Aerials<br>418 Cork Avenue, Ferndale, Randburg<br>info@blackrabbit.co.za</p>`
+          <p>Black Rabbit Aerials<br>418 Cork Avenue, Ferndale, Randburg<br>info@blackrabbitaerials.co.za</p>`
       }
     ];
 
