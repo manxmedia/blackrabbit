@@ -100,7 +100,8 @@ export default function Home() {
     setSending(true);
     setStatus("");
 
-    const form = new FormData(e.currentTarget);
+    const formElement = e.currentTarget;
+    const form = new FormData(formElement);
     const payload = Object.fromEntries(form.entries());
 
     try {
@@ -118,7 +119,9 @@ export default function Home() {
         throw new Error(data.error || "Unable to send your message.");
       }
 
-      e.currentTarget.reset();
+      // React event.currentTarget is only guaranteed during the event callback.
+      // Keep a direct reference so the form can be reset after the async request.
+      formElement.reset();
       setStatus("success");
     } catch (err) {
       setStatus(
